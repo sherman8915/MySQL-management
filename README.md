@@ -8,7 +8,9 @@ you can issue that command and immediately after it you can use: skip_and_resume
 
 Example:
 
+#example.py
 import mysql_utility_manager
+
 database_info={'read_write_master':['master.domain.net','root','rw1 password'],
                'read_only_slave':['slave.domain.net','root','ro1 password'],
 
