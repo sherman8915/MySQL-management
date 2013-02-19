@@ -8,10 +8,10 @@ you can issue that command and immediately after it you can use: skip_and_resume
 
 Example:
 
-#example.py
+##example.py
 import mysql_utility_manager
 
-##database info is a key values dictionary of the form: server_name:[ip_address/fqdn,username,password]
+---database info is a key values dictionary of the form: server_name:[ip_address/fqdn,username,password]
 database_info={'read_write_master':['master.domain.net','root','rw1 password'],
                'read_only_slave':['slave.domain.net','root','ro1 password'],
 
